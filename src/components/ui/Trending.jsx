@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Product from "./Product";
 import ProductSkeleton from "./ProductSkeleton";
-import { AppContext } from "../../context/appContext";
+import { AppContext } from "../../context/AppContext";
 
 const Trending = ({ selectedProduct, loading }) => {
   const { products } = useContext(AppContext);

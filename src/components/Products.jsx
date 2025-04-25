@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Product from "./ui/Product";
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 import ProductSkeleton from "./ui/ProductSkeleton";
 
 const Products = () => {

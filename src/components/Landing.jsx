@@ -3,7 +3,7 @@ import landingImg from "../assets/landing-background-image.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavLogo from "./ui/NavLogo";
 import { IconContext } from "../context/IconContext.jsx";
-import { AppContext } from "../context/appContext.jsx";
+import { AppContext } from "../context/AppContext.jsx";
 import { useNavigate } from "react-router-dom";
 
 const Landing = () => {
@@ -17,9 +17,9 @@ const Landing = () => {
 
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
-      event.preventDefault(); 
+      event.preventDefault();
       searchProduct(inputValue);
-      navigate("/products"); 
+      navigate("/products");
     }
   };
   return (

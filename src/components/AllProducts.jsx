@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 import Product from "./ui/Product";
 import SearchBar from "./ui/SearchBar";
 import { Link } from "react-router-dom";

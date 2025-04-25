@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconContext } from "../../context/IconContext";
-import { AppContext } from "../../context/appContext";
+import { AppContext } from "../../context/AppContext";
 
 const SearchBar = () => {
   const icons = useContext(IconContext);

@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
 import IPP from "./pages/IPP";
-import { AppContext } from "./context/appContext";
+import { AppContext } from "./context/AppContext";
 import { IconProvider } from "./context/IconContext";
 import axios from "axios";
 import { useEffect, useState } from "react";
